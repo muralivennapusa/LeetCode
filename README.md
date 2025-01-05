@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/muralivennapusa/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2465-shifting-letters-ii](https://github.com/muralivennapusa/LeetCode/tree/master/2465-shifting-letters-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -17,4 +18,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/muralivennapusa/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2465-shifting-letters-ii](https://github.com/muralivennapusa/LeetCode/tree/master/2465-shifting-letters-ii) |
+## Array
+|  |
+| ------- |
+| [2465-shifting-letters-ii](https://github.com/muralivennapusa/LeetCode/tree/master/2465-shifting-letters-ii) |
 <!---LeetCode Topics End-->
