@@ -9,6 +9,7 @@ class Solution:
                     mat[i][j] += mat[i-1][j] #histogram 
         
         ans = 0
+
         for i in range(m):
             stack = [] #mono-stack of indices of non-decreasing height
             cnt = 0
