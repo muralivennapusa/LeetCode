@@ -1,5 +1,4 @@
 class Solution:
     def smallestNumber(self, n: int) -> int:
-        while n & (n + 1):
-            n |= n + 1
-        return n
+        x=bin(n)[2:]
+        return int('1'*len(x),2)
