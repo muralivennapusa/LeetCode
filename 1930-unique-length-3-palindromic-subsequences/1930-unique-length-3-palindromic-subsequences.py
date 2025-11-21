@@ -1,14 +1,11 @@
-class Solution(object):
-    def countPalindromicSubsequence(self, s):
-        d=defaultdict(list)
-        for i,c in enumerate(s):
-            d[c].append(i)
-        ans=0
-        for el in d:
-            if len(d[el])<2:
-                continue
-            a=d[el][0]
-            b=d[el][-1]
-            ans+=len(set(s[a+1:b]))
-        return(ans)
-		
+from collections import Counter
+class Solution:
+    def countPalindromicSubsequence(self, s: str) -> int:
+        r=0
+        se=set(s)
+        for i in se:
+            j=s.find(i)
+            k=s.rfind(i)
+            if j<k:
+                r+=len(set(s[j+1:k]))
+        return r           
